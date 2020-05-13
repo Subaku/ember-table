@@ -80,6 +80,8 @@ export default Component.extend({
 
   rowSelectionMode: readOnly('api.rowSelectionMode'),
 
+  rowToggleMode: readOnly('api.rowToggleMode'),
+
   isHeader: readOnly('api.isHeader'),
 
   isSelected: readOnly('rowMeta.isSelected'),
